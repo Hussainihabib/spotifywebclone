@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "Sun Saathiya",
+    "artist": "Sachin-Jigar, Divya Kumar, Priya Saraiya",
+    "album": "My Music",
+    "duration": 0,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAMbwpY5a4LXBWdtKpCTVaZmjSpe4IH1M_d3C-vBQvaw&sw=400&h=400&fit=crop&q=80",
+    "audioSrc": "/music/sun-saathiya.mp3"
+  },
+  {
+    "id": "2",
+    "title": "Bol Kaffara Kya Hoga",
+    "artist": "Neha Kakkar, Farhan Sabri",
+    "album": "My Music",
+    "duration": 0,
+    "coverImage": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop&q=80",
+    "audioSrc": "/music/bol-kaffara-kya-hoga.mp3"
+  },
+  {
+    "id": "3",
+    "title": "Tera Mera Rishta",
+    "artist": "Mithoon",
+    "album": "My Music",
+    "duration": 0,
+    "coverImage": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400&h=400&fit=crop&q=80",
+    "audioSrc": "/music/tera-mera-rishta.mp3"
+  },
+  {
+    "id": "4",
+    "title": "Jhoome Jo Pathaan",
+    "artist": "Arijit Singh, Sukriti Kakar",
+    "album": "My Music",
+    "duration": 0,
+    "coverImage": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop&q=80",
+    "audioSrc": "/music/jhoome-jo-pathaan.mp3"
+  },
+  {
+    "id": "5",
+    "title": "MAFIA",
+    "artist": "Yo Yo Honey Singh",
+    "album": "My Music",
+    "duration": 0,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevdP10YA8mFy9_LlwQIG2cQ4iIymny2__gw4EkYSOn4Ac2H7yVfTWch5h&s=10w=400&h=400&fit=crop&q=80",
+    "audioSrc": "/music/mafia.mp3"
+  },
+  {
+    "id": "6",
+    "title": "Musafir",
+    "artist": "Various Artists",
+    "album": "My Music",
+    "duration": 0,
+    "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&q=80",
+    "audioSrc": "/music/musafir.mp3"
+  },
+  {
+    "id": "7",
+    "title": "AADAT",
+    "artist": "Yo Yo Honey Singh, AP Dhillon",
+    "album": "My Music",
+    "duration": 0,
+    "coverImage": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop&q=80",
+    "audioSrc": "/music/aadat.mp3"
+  },
+  {
+    "id": "8",
+    "title": "Ishq Deewana",
+    "artist": "Various Artists",
+    "album": "My Music",
+    "duration": 0,
+    "coverImage": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400&h=400&fit=crop&q=80",
+    "audioSrc": "/music/ishq-deewana.mp3"
+  },
+  {
+    "id": "9",
+    "title": "Thodi Si Daaru",
+    "artist": "AP Dhillon, Shreya Ghoshal",
+    "album": "My Music",
+    "duration": 0,
+    "coverImage": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop&q=80",
+    "audioSrc": "/music/thodi-si-daaru.mp3"
+  },
+  {
+    "id": "10",
+    "title": "Saiyaara Reprise",
+    "artist": "Shreya Ghoshal",
+    "album": "My Music",
+    "duration": 0,
+    "coverImage": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=400&fit=crop&q=80",
+    "audioSrc": "/music/saiyaara-reprise.mp3"
+  }
+]
