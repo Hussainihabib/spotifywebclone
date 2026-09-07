@@ -74,3 +74,48 @@
     overflow: hidden;
   }
 }
+
+
+@layer components {
+  .player-range {
+    appearance: none;
+    height: 5px;
+    border-radius: 9999px;
+    background: linear-gradient(
+      to right,
+      #1ed760 0%,
+      #1ed760 var(--progress, 0%),
+      rgba(255,255,255,.2) var(--progress, 0%),
+      rgba(255,255,255,.2) 100%
+    );
+    cursor: pointer;
+  }
+
+  .player-range::-webkit-slider-thumb {
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+  }
+
+  .player-range::-moz-range-thumb {
+    width: 13px;
+    height: 13px;
+    border: 0;
+    border-radius: 50%;
+    background: #fff;
+  }
+}
+
+@media (max-width: 1023px) {
+  .main-scroll {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+@media (max-width: 639px) {
+  .player-range {
+    min-height: 5px;
+  }
+}

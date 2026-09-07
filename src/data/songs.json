@@ -5,7 +5,7 @@
     "artist": "Sachin-Jigar, Divya Kumar, Priya Saraiya",
     "album": "My Music",
     "duration": 0,
-    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAMbwpY5a4LXBWdtKpCTVaZmjSpe4IH1M_d3C-vBQvaw&sw=400&h=400&fit=crop&q=80",
+    "coverImage": "/covers/sun-saathiya.jfif",
     "audioSrc": "/music/sun-saathiya.mp3"
   },
   {
@@ -14,7 +14,7 @@
     "artist": "Neha Kakkar, Farhan Sabri",
     "album": "My Music",
     "duration": 0,
-    "coverImage": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop&q=80",
+    "coverImage": "/covers/bol-kaffara-kya-hoga.jfif",
     "audioSrc": "/music/bol-kaffara-kya-hoga.mp3"
   },
   {
@@ -23,7 +23,7 @@
     "artist": "Mithoon",
     "album": "My Music",
     "duration": 0,
-    "coverImage": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400&h=400&fit=crop&q=80",
+    "coverImage": "/covers/tera-mera-rishta.jpg",
     "audioSrc": "/music/tera-mera-rishta.mp3"
   },
   {
@@ -32,7 +32,7 @@
     "artist": "Arijit Singh, Sukriti Kakar",
     "album": "My Music",
     "duration": 0,
-    "coverImage": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop&q=80",
+    "coverImage": "/covers/jhoome-jo-pathaan.jfif",
     "audioSrc": "/music/jhoome-jo-pathaan.mp3"
   },
   {
@@ -41,7 +41,7 @@
     "artist": "Yo Yo Honey Singh",
     "album": "My Music",
     "duration": 0,
-    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevdP10YA8mFy9_LlwQIG2cQ4iIymny2__gw4EkYSOn4Ac2H7yVfTWch5h&s=10w=400&h=400&fit=crop&q=80",
+    "coverImage": "/covers/mafia.jfif",
     "audioSrc": "/music/mafia.mp3"
   },
   {
@@ -50,16 +50,16 @@
     "artist": "Various Artists",
     "album": "My Music",
     "duration": 0,
-    "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&q=80",
+    "coverImage": "/covers/musafir.jfif",
     "audioSrc": "/music/musafir.mp3"
   },
   {
     "id": "7",
     "title": "AADAT",
     "artist": "Yo Yo Honey Singh, AP Dhillon",
-    "album": "My Music",
+    "album": "51 Glorious Days",
     "duration": 0,
-    "coverImage": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop&q=80",
+    "coverImage": "/covers/aadat.jpg",
     "audioSrc": "/music/aadat.mp3"
   },
   {
@@ -68,7 +68,7 @@
     "artist": "Various Artists",
     "album": "My Music",
     "duration": 0,
-    "coverImage": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400&h=400&fit=crop&q=80",
+    "coverImage": "/covers/ishq-deewana.jpg",
     "audioSrc": "/music/ishq-deewana.mp3"
   },
   {
@@ -77,7 +77,7 @@
     "artist": "AP Dhillon, Shreya Ghoshal",
     "album": "My Music",
     "duration": 0,
-    "coverImage": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop&q=80",
+    "coverImage": "/covers/thodi-si-daaru.jfif",
     "audioSrc": "/music/thodi-si-daaru.mp3"
   },
   {
@@ -86,7 +86,7 @@
     "artist": "Shreya Ghoshal",
     "album": "My Music",
     "duration": 0,
-    "coverImage": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=400&fit=crop&q=80",
+    "coverImage": "/covers/saiyaara-reprise.jfif",
     "audioSrc": "/music/saiyaara-reprise.mp3"
   }
 ]

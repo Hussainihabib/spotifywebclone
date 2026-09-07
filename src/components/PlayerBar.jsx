@@ -145,7 +145,7 @@ function VolumeControl() {
       <div
         ref={trackRef}
         onMouseDown={handlePointerDown}
-        className="group/vol relative h-3 w-24 cursor-pointer select-none"
+        className="group/vol relative hidden h-3 w-24 cursor-pointer select-none sm:block"
         role="slider"
         aria-label="Volume"
         aria-valuemin={0}
@@ -200,17 +200,17 @@ export default function PlayerBar() {
   const liked = currentSong ? isLiked(currentSong.id) : false;
 
   return (
-    <footer title={playbackError || undefined} className="relative grid h-22 min-h-[5.5rem] w-full grid-cols-3 items-center gap-4 border-t border-border-subtle bg-surface-base px-4 py-3">
+    <footer title={playbackError || undefined} className="relative grid min-h-[5.25rem] w-full grid-cols-[1fr_auto] items-center gap-2 border-t border-border-subtle bg-surface-base px-3 py-2 sm:h-22 sm:min-h-[5.5rem] sm:grid-cols-3 sm:gap-4 sm:px-4 sm:py-3">
       {playbackError && <div className="absolute bottom-24 left-1/2 z-50 -translate-x-1/2 rounded bg-red-500 px-4 py-2 text-sm text-white shadow-lg">{playbackError}</div>}
 
       {/* Left: now-playing info */}
-      <div className="flex min-w-0 items-center gap-3">
+      <div className="flex min-w-0 items-center gap-2 sm:gap-3">
         {currentSong ? (
           <>
             <img
               src={currentSong.coverImage}
               alt={`${currentSong.album} cover`}
-              className="h-14 w-14 shrink-0 rounded object-cover shadow-card"
+              className="h-12 w-12 shrink-0 rounded object-cover shadow-card sm:h-14 sm:w-14"
             />
             <div className="min-w-0">
               <p className="truncate text-sm font-medium text-white">{currentSong.title}</p>
@@ -230,8 +230,8 @@ export default function PlayerBar() {
       </div>
 
       {/* Center: transport controls + seek bar */}
-      <div className="flex flex-col items-center gap-2">
-        <div className="flex items-center gap-5">
+      <div className="col-span-2 row-start-2 flex flex-col items-center gap-1 sm:col-span-1 sm:row-start-auto sm:gap-2">
+        <div className="flex items-center gap-4 sm:gap-5">
           <button
             onClick={toggleShuffle}
             aria-label="Toggle shuffle"
@@ -282,7 +282,7 @@ export default function PlayerBar() {
       </div>
 
       {/* Right: volume */}
-      <div className="flex items-center justify-end gap-3">
+      <div className="flex items-center justify-end gap-1 sm:gap-3">
         <VolumeControl />
       </div>
     </footer>
